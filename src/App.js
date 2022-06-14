@@ -1,6 +1,8 @@
 import "./App.css";
+import "./components/DogList.css";
 import CatList from "./components/CatList.js";
 import DogList from "./components/DogList.js";
+import ParrotList from "./components/ParrotList";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <CatList />
       <h2>List of Dogs</h2>
       <DogList />
+      <h2>List of Parrots</h2>
+      <ParrotList />
     </main>
   );
 }

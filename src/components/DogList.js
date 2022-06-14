@@ -3,7 +3,7 @@ import Dog from "./Dog.js";
 
 const DogList = () => {
   return (
-    <ul>
+    <ul className="dog-list__list">
       <li>
         <Dog />
         <Dog />
